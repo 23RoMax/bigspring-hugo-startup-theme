@@ -2,30 +2,30 @@
   <div class="container">
     <div class="row">
       <div class="col-md-3 col-sm-6 mb-5">
-        {{ if site.Menus.footer_left }}
-        <div class="h3 mb-4">{{ site.Params.footer_menu_left }}</div>
+        {{ if site.Menus.clients }}
+        <h3 class="mb-4">For Clients</h3>
         <ul class="list-unstyled footer-list">
-          {{ range site.Menus.footer_left }}
+          {{ range site.Menus.clients }}
           <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
         {{ end }}
       </div>
       <div class="col-md-3 col-sm-6 mb-5">
-        {{ if site.Menus.footer_middle }}
-        <div class="h3 mb-4">{{ site.Params.footer_menu_middle }}</div>
+        {{ if site.Menus.applicants }}
+        <h3 class="mb-4">For Applicants</h3>
         <ul class="list-unstyled footer-list">
-          {{ range site.Menus.footer_middle }}
+          {{ range site.Menus.applicants }}
           <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>
         {{ end }}
       </div>
       <div class="col-md-3 col-sm-6 mb-5">
-        {{ if site.Menus.footer_right }}
-        <div class="h3 mb-4">{{ site.Params.footer_menu_right }}</div>
+        {{ if site.Menus.remote4u }}
+        <h3 class="mb-4">Remote4u</h3>
         <ul class="list-unstyled footer-list">
-          {{ range site.Menus.footer_right }}
+          {{ range site.Menus.remote4u }}
           <li><a href="{{ .URL | absURL }}">{{ .Name }}</a></li>
           {{ end }}
         </ul>

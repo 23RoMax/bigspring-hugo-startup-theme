@@ -58,43 +58,43 @@ name = "FAQ"
 URL = "faq"
 weight = 4
 
-# footer menu left
-[[menu.footer_left]]
+# company 
+[[menu.company]]
 name = "About Us"
 URL = "#"
 
-[[menu.footer_left]]
+[[menu.company]]
 name = "Quick Start"
 URL = "#"
 
-[[menu.footer_left]]
+[[menu.company]]
 name = "Pricing"
 URL = "pricing"
 
 
-# footer menu middle
-[[menu.footer_middle]]
+# Product 
+[[menu.product]]
 name = "Pricing"
 URL = "pricing"
 
-[[menu.footer_middle]]
+[[menu.product]]
 name = "Platform"
 URL = "#"
 
-[[menu.footer_middle]]
+[[menu.product]]
 name = "Features"
 URL = "#"
 
-# footer menu right
-[[menu.footer_right]]
+# Support 
+[[menu.support]]
 name = "Privacy Policy"
 URL = "privacy-policy"
 
-[[menu.footer_right]]
+[[menu.support]]
 name = "Terms & Conditions"
 URL = "terms-conditions"
 
-[[menu.footer_right]]
+[[menu.support]]
 name = "FAQ"
 URL = "faq"
 
@@ -109,9 +109,6 @@ author = "Themefisher"
 contact_form_action = "#" # contact form works with https://formspree.io
 
 ########### footer content ##########
-footer_menu_left = "Company"
-footer_menu_middle = "Product"
-footer_menu_right = "Support"
 footer_content = "Lorem ipsum dolor sit amet, consectetur elit. Consjat tristique eget amet, tempus eu at cttur."
 # copyright
 copyright = "Design By [Themefisher](https://themefisher.com/) Develop By [Gethugothemes](https://gethugothemes.com/)"
